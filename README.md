@@ -85,12 +85,15 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <p>
 <img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/29616e4c-8b39-4aed-98a9-7bffab1dc81a">
 <img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/7f8da877-61fa-4047-b9c8-607fb656d8a7">
+<img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/b7e13ff3-1ed2-4df5-b442-ea0c50ce3801">
+
 
 </p>
 <p>
 <ol>
-  <li>Now I am going to join Client-1 to the domain (mydomain.com). From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
-</li>
+  <li>Now I am going to join Client-1 to the domain (mydomain.com). From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address </li>
+  <li>Then login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain </li>
+
 </ol></p>
 <br />
 
