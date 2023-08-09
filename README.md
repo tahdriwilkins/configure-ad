@@ -70,8 +70,9 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <img width="978" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/7ef0dae9-ac59-49d5-8fe6-89f7a37b1e81">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<ol>
+  <li> Now in the domain I created an Admin and Normal/Employee User account in Active Directory </li>
+</ol></p>
 <br />
 
 <p>
