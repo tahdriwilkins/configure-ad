@@ -74,7 +74,7 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <p>
 <ol>
   <li> Now in the domain I created an Admin and Normal/Employee User account in Active Directory </li>
-  <li> Then I created a user in the _ADMIN organizational unit named after me. Then I added my self to the domain admins group to give me admin access</li>
+  <li> Then I created a user in the _ADMIN organizational unit named after me. Then I added myself to the "Domain Admins" security group to give me admin access</li>
 </ol></p>
 <br />
 
