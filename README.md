@@ -44,7 +44,11 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 
 </p>
 <p>
-Now I am ensuring there is connectivity between the domain and the client. I logged into Client-1 and ping DC-1 private IP address and it is not connecting. </p>
+<ol>
+  <li>Now I am ensuring there is connectivity between the domain and the client. I logged into Client-1 and ping DC-1 private IP address and it is not connecting.</li>
+  <li>In the next picture, I log into DC-1 and adjust the firewall settings so we can ping it and make sure it is connecting.</li>
+</ol> 
+</p>
 <br />
 
 <p>
