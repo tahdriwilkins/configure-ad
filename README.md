@@ -61,6 +61,7 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <p>
 <ol>
   <li>Now I will be installing Active Directory to DC-1</li>
+  <li>In the second picture, I clicked on the flag to promote this server into a domain controller. Then I go through the rest of the configuration process</li>
 </ol></p>
 <br />
 
