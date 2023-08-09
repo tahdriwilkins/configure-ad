@@ -57,8 +57,9 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <img width="700" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/611bb925-c6a3-4949-96af-080819ebdc32">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<ol>
+  <li>Now I will be installing Active Directory to DC-1</li>
+</ol></p>
 <br />
 
 <p>
