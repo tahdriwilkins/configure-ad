@@ -41,12 +41,14 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <p>
 <img width="674" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/58cbf53a-b285-494b-a73b-58d3beb3562a">
 <img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/cb94747a-fe3d-4139-85e0-586d3799abde">
+<img width="674" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/e36dd8c0-b840-41c3-a311-fced82cf4c56">
 
 </p>
 <p>
 <ol>
   <li>Now I am ensuring there is connectivity between the domain and the client. I logged into Client-1 and ping DC-1 private IP address and it is not connecting.</li>
-  <li>In the next picture, I log into DC-1 and adjust the firewall settings so we can ping it and make sure it is connecting. We enable IMCP to echo so when we log back on ti Client-1, we should not receive packets.</li>
+  <li>In the next picture, I log into DC-1 and adjust the firewall settings so I can ping it and make sure it is connecting. I enabled IMCP to echo so when we log back on ti Client-1, I should receive packets.</li>
+  <li>In the third picture you can see that I log back into Client-1 and ping it again. Instead of being timed out, it is now receiving packets</li>
 </ol> 
 </p>
 <br />
