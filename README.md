@@ -69,6 +69,8 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <p>
 <img width="978" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/7ef0dae9-ac59-49d5-8fe6-89f7a37b1e81">
 <img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/499e0651-70ef-44d2-82dd-e507fc63653e">
+<img width="750" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/38f1782d-c1ce-4a5e-ab0a-3421a9919db3">
+
 
 </p>
 <p>
