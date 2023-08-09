@@ -83,11 +83,15 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/29616e4c-8b39-4aed-98a9-7bffab1dc81a">
+<img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/7f8da877-61fa-4047-b9c8-607fb656d8a7">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<ol>
+  <li>Now I am going to join Client-1 to the domain (mydomain.com). From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+</li>
+</ol></p>
 <br />
 
 <p>
