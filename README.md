@@ -75,7 +75,9 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <ol>
   <li> Now in the domain I created an Admin and Normal/Employee User account in Active Directory </li>
   <li> Then I created a user in the _ADMIN organizational unit named after me. Then I added myself to the "Domain Admins" security group to give me admin access</li>
-</ol></p>
+  <li> After I log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\tahdri_admin” I will use tahdri_admin as the admin account from now on </li>
+</ol>
+</p>
 <br />
 
 <p>
