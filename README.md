@@ -100,10 +100,15 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/bdc6fc3d-a38b-423d-8d8d-8ccb67f19b52">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  <ol>
+    <li>Log into Client-1 as mydomain.com\jane_admin and open system properties</li>
+    <li>Click “Remote Desktop”</li>
+    <li>Allow “domain users” access to remote desktop</li>
+    <li>I can now log into Client-1 as a normal, non-administrative user now</li>
+  </ol>
 </p>
 <br />
 
