@@ -94,6 +94,7 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <ol>
   <li>Now I am going to join Client-1 to the domain (mydomain.com). From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address </li>
   <li>Then login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain </li>
+  <li>Then login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain</li>
 
 </ol></p>
 <br />
