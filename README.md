@@ -123,5 +123,11 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
     <li>Run the script and observe the accounts being created</li>
 </ol>
 </p>
+<p>
+  <img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/1a32c02b-f478-47c9-8653-111bd273efb2">
+  <ul>
+    <li>  Then Run the script and observe the accounts being created</li>
+  </ul>
+</p>
 <br />
 
