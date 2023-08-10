@@ -129,5 +129,11 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
     <li>  Then Run the script and observe the accounts being created</li>
   </ul>
 </p>
+<p>
+  <img width="800 alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/1d3fd859-c216-42bf-904c-d68c852edd49">
+  <ul>
+    <li>When finished, open Active Directory Users and Computers and observe the accounts in the _EMPLOYEES Organizational Unit</li>
+  </ul>
+</p>
 <br />
 
