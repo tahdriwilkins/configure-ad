@@ -116,7 +116,12 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <img width="975" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/02ee2ac1-f183-4675-b959-2f6abf259f39">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  <ol>
+    <li>Login to DC-1 as jane_admin</li>
+    <li>Open PowerShell_ise as an administrator</li>
+    <li>Then I created a new File and paste the contents of this script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)/li>
+    <li>Run the script and observe the accounts being created</li>
+</ol>
 </p>
 <br />
 
