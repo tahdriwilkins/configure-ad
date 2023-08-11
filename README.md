@@ -74,18 +74,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 <img width="978" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/7ef0dae9-ac59-49d5-8fe6-89f7a37b1e81">
-  <ul>
-      <li> Now in the domain I created an Admin and Normal/Employee User account in Active Directory </li>
-  </ul>
 </p>
+
+- Now in the domain I created an Admin and Normal/Employee User account in Active Directory 
 <br />
 
 <p>
 <img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/499e0651-70ef-44d2-82dd-e507fc63653e">
-  <ul>
-      <li> Then I created a user in the _ADMIN organizational unit named after me. Then I added myself to the "Domain Admins" security group to give me admin access</li>
-  </ul>
 </p>
+      
+- Then I created a user in the _ADMIN organizational unit named after me. Then I added myself to the "Domain Admins" security group to give me admin access
+<br />
 
 <p>
 <img width="750" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/38f1782d-c1ce-4a5e-ab0a-3421a9919db3">
