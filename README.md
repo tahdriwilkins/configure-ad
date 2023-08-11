@@ -85,18 +85,25 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <p>
 <img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/29616e4c-8b39-4aed-98a9-7bffab1dc81a">
 <img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/7f8da877-61fa-4047-b9c8-607fb656d8a7">
-<img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/b7e13ff3-1ed2-4df5-b442-ea0c50ce3801">
-<img width="825" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/d97bf998-80e8-4149-94ce-4ce99b5d95c0">
+  <p>
+    <ul>
+        <li>Now I am going to join Client-1 to the domain (mydomain.com). From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address</li>
+    </ul>
+  </p>
 
-
-</p>
 <p>
-<ol>
-  <li>Now I am going to join Client-1 to the domain (mydomain.com). From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address </li>
-  <li>Then login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain </li>
-  <li>Then login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain</li>
+<img width="1128" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/b7e13ff3-1ed2-4df5-b442-ea0c50ce3801">
+  <ul>
+      <li>Then login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain </li>
+ </ul>
+</p>
 
-</ol></p>
+<p>
+<img width="825" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/d97bf998-80e8-4149-94ce-4ce99b5d95c0">
+  <ul>
+      <li>Then login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain</li>
+  </ul>
+</p>
 <br />
 
 <p>
