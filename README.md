@@ -42,8 +42,9 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <img width="674" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/58cbf53a-b285-494b-a73b-58d3beb3562a">
 <img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/cb94747a-fe3d-4139-85e0-586d3799abde">
 <img width="674" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/e36dd8c0-b840-41c3-a311-fced82cf4c56">
-
 </p>
+<br />
+
 <p>
 <ol>
   <li>Now I am ensuring there is connectivity between the domain and the client. I logged into Client-1 and ping DC-1 private IP address and it is not connecting.</li>
@@ -68,17 +69,24 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 
 <p>
 <img width="978" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/7ef0dae9-ac59-49d5-8fe6-89f7a37b1e81">
-<img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/499e0651-70ef-44d2-82dd-e507fc63653e">
-<img width="750" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/38f1782d-c1ce-4a5e-ab0a-3421a9919db3">
-
-
+  <ul>
+      <li> Now in the domain I created an Admin and Normal/Employee User account in Active Directory </li>
+  </ul>
 </p>
+<br />
+
 <p>
-<ol>
-  <li> Now in the domain I created an Admin and Normal/Employee User account in Active Directory </li>
-  <li> Then I created a user in the _ADMIN organizational unit named after me. Then I added myself to the "Domain Admins" security group to give me admin access</li>
-  <li> After I log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\tahdri_admin” I will use tahdri_admin as the admin account from now on </li>
-</ol>
+<img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/499e0651-70ef-44d2-82dd-e507fc63653e">
+  <ul>
+      <li> Then I created a user in the _ADMIN organizational unit named after me. Then I added myself to the "Domain Admins" security group to give me admin access</li>
+  </ul>
+</p>
+
+<p>
+<img width="750" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/38f1782d-c1ce-4a5e-ab0a-3421a9919db3">
+  <ul>
+      <li> After I log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\tahdri_admin” I will use tahdri_admin as the admin account from now on </li>
+  </ul>
 </p>
 <br />
 
@@ -122,20 +130,22 @@ Setting up the Domain Controller and the Client virtual machines in Microsoft Az
 <p>
 <img width="975" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/02ee2ac1-f183-4675-b959-2f6abf259f39">
 </p>
+
 <p>
   <ol>
     <li>Login to DC-1 as jane_admin</li>
     <li>Open PowerShell_ise as an administrator</li>
     <li>Then I created a new File and paste the contents of this script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)/li>
-    <li>Run the script and observe the accounts being created</li>
-</ol>
+  </ol>
 </p>
+
 <p>
   <img width="1000" alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/1a32c02b-f478-47c9-8653-111bd273efb2">
   <ul>
     <li>  Then Run the script and observe the accounts being created</li>
   </ul>
 </p>
+
 <p>
   <img width="800 alt="image" src="https://github.com/tahdriwilkins/configure-ad/assets/141438778/1d3fd859-c216-42bf-904c-d68c852edd49">
   <ul>
